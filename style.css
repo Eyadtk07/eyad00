@@ -1,156 +1,387 @@
-@import url("https://use.typekit.net/pvy5tal.css");
-*{
-    font-family: 'poppins',sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+*
+{
+ padding: 0;
+ margin: 0;
+ font-family: sans-serif;
+ scroll-behavior: smooth;
 }
 body
 {
-    background-color: #022646;
+    overflow-x: hidden;
+  
+   height: 350vh;
+   background-image: linear-gradient(to right top, #0a0134, #101961, #182c92, #1842c7, #0059ff);
 }
-header
+nav
 {
-    background-color:#018ABD;
     width: 100%;
+    height: 10vh;
+  position: fixed;
     display: flex;
-    padding: 1em 10em ;
-     justify-content: space-between;
-     align-items: center;
-     z-index: 999;
-     position: fixed;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
 }
 .logo
 {
-    font-weight: 750;
+    font-size: 40px;
+   text-decoration: none;
+   margin: 30px;
+   margin-top: 50px;
+font-weight: 800;
+color:rgb(235, 233, 233);
+letter-spacing: 2px;
+text-transform: uppercase;
+cursor:text;
+z-index: 2;
+}
+ul li
+{
+ display: inline-block;
+ padding-left: 10px;
+ padding-right: 75px;
+ font-size: 30px;
+ font-weight: 700;
+}
+ul li a
+{
+    text-transform: capitalize;
     text-decoration: none;
-    padding: 5px 100px;
-    font-size: 4em;
+    letter-spacing: 2px;
+    color:rgb(235, 233, 233);
+    border-width: 25px;
+    border-radius: 10px;
+}
+ul li a:hover
+{
+    transition-duration: 0.5s;
+    background-color: white;
+    opacity: 0.3;
+   /* color: #0059ff; */
+}
+.Blog .title
+{
+    font-size: 120px;
+}
+.Blog
+{
+    width: 50%;
+    height: 85vh;
+    background-color: #999;
+  border-style: solid;
+  border-width: 10px;
+    border-color: #f9f6ff50;
+    border-radius: 20%;
+    box-shadow: -40px 45px 30px  rgba(0, 0, 0, 0.418);
+    mix-blend-mode:soft-light;
+    position: absolute;
+    top: 8%;
+    margin-left: 45vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Blog ul li
+{
+    padding-top: 3%;
+    color:rgb(255, 255, 255);
+}
+ul
+{
+    padding-left: 13%;
+}
+.Blog .title
+{
+    color:rgb(255, 255, 255);   
+    text-transform: capitalize;
+}
+.dotrightdonw
+{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: -10px 40px 80px 5px #000;
+    border-style:hidden;
+    background-image: linear-gradient(to right top, #0a0134, #101961, #182c92, #1842c7, #0059ff);
+    background-color: white;
+    overflow: hidden;
+    position:absolute;top:290vh;left:85%;
+    opacity: 1;
+}
+.dotrightdonwl
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: -10px 40px 80px 10px #000;
+    border-style:hidden;
+    background-image: linear-gradient(to right top, #0a0134, #101961, #182c92, #1842c7, #0059ff);
+    background-color: white;
+    position:absolute;left: 90%;
+    top: 80%;
+    overflow: hidden;
+    position:absolute;top:324vh;left:85%;
+    z-index: 1;
+    opacity: 1;
+}
+.dotrightdonwl:hover
+{
+    transition-duration: 1.5s;
+    opacity: 0.3;
+}
+.dotrightdonw:hover
+{
+    transition-duration: 1.5s;
+    opacity: 0.3;
+}
+.dotrightdonwtl
+{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: -40px 5px 100px 20px #000;
+    border-style:hidden;
+    background-image: linear-gradient(to right top, #0a0134, #101961, #182c92, #1842c7, #0059ff);
+    background-color: white;
+    overflow: hidden;
+    position:absolute;bottom:85%;right:85%;
+    z-index: 1;
+    opacity: 1;   
+}
+p
+{
+    text-shadow: -5px 4px 5px rgba(0, 0, 0, 0.74);
+    mix-blend-mode:hard-light;
+}
+.dotrightdonwtl:hover
+{
+    transition-duration: 1.5s;
+    opacity: 0.3;   
+}
+.p
+{
+    font-size: 27px;
+    font-weight: 900;
+}
+.p .here
+{
+    color: white;
+    mix-blend-mode:exclusion;
+    cursor: pointer;
     text-transform: uppercase;
-    color:#DDE8F0 ;
 }
-.navigation a
+.p .here
 {
- text-decoration: none;
- padding: 0px 10px;
- font-size: 1.5em;
- color:#DDE8F0 ;
+    background: fixed;
 }
-.navigation a:hover
+.webimg
 {
+    width: 15vh;
+    mix-blend-mode:hard-light;
+    opacity: 1;
+    z-index: 4;
+}
+.web
+{
+    text-align: center;
+    font-size: 3vh;
+}
+.serv
+{
+    display: inline-flex;
+    margin-top: 7vh;
+    margin-right: 5vh;
+}
+.pserv
+{
+    margin-top: 7vh;
+    font-size: 28px;
+    font-weight: 900;
+    
+}
+.contacting
+{
+    width: 20%;
+    height: 40vh;
+    background-color: #999;
+  border-style: solid;
+  border-width: 10px;
+    border-color: #f9f6ff50;
+    border-radius: 20%;
+    box-shadow: -30px 35px 20px  rgba(0, 0, 0, 0.418);
+    mix-blend-mode:soft-light;
+    position: absolute;
+    top: 19%;
+    right: 5vh;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    z-index: 1;
+}
+.contacting p
+{
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 15vh;
+    mix-blend-mode:hard-light;
+    color: rgb(255, 255, 255);
+    text-shadow: -5px 4px 4px rgba(0, 0, 0, 0.74);
+}
+.insta
+{
+    width: 10vh;
+    position:absolute;top: 55%;left: 18%;
     opacity: 0.7;
 }
-.blog
+.facebook
 {
-    padding: 150px 100px;
+    width: 10vh;
+    position:absolute;top: 55%;left: 58%;
+    opacity: 0.7;
 }
-.blog .blog-title
+.facebook:hover
 {
-    color:#97CBDC;
-    font-size: 3em;
-    font-weight: 750;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.230);
+    transition-duration: 0.5s;
+    opacity: 0.5;
 }
-.blog .blog-info
+.insta:hover
 {
-    font-size: 150%;
-    color:#DDE8F0 ;
-    padding: 1.5em 0.5em;
+    transition-duration: 0.5s;
+    opacity: 0.5;
+}
+.projects
+{
+    width: 50%;
+    height: 85vh;
+    background-color: #999;
+  border-style: solid;
+  border-width: 10px;
+    border-color: #f9f6ff50;
+    border-radius: 20%;
+    box-shadow: -40px 45px 30px  rgba(0, 0, 0, 0.418);
+    mix-blend-mode:soft-light;
+    position: absolute;
+    top: 8%;
+    margin-left: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125vh;
+}
+.projects .title
+{
+    color:rgb(255, 255, 255);   
     text-transform: capitalize;
+    font-size: 120px;
 }
-.projects .glitshyworlddemotitle
+.projects ul li
 {
-    padding: 100px 100px;
-    font-size: 2.5em;
-    color:#DDE8F0 ;
-    font-weight: 650;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.230);
+    padding-top: 3%;
+    color:rgb(255, 255, 255);
 }
-.projects .projects-title
+.servecis
 {
-    padding-left: 2em;
-    color:#97CBDC;
-    font-size: 3em;
-    font-weight: 750;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.230);
+    width: 50%;
+    height: 85vh;
+    background-color: #999;
+  border-style: solid;
+  border-width: 10px;
+    border-color: #f9f6ff50;
+    border-radius: 20%;
+    box-shadow: -40px 45px 30px  rgba(0, 0, 0, 0.418);
+    mix-blend-mode:soft-light;
+    position: absolute;
+    top: 8%;
+    margin-left: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 240vh;   
 }
-.projects a
+.servecis .title
 {
-padding-left: 750px;
-}
-.projects a:hover
-{
-    opacity: 0.8;
-}
-.projects .description
-{
-    padding-left: 100px;
-    padding-top: 100px;
-    color:#DDE8F0 ;
-    font-size: 2em;
-    font-weight: 500;
-}
-.projects .glitshyworlddes
-{
-    font-size: 150%;
-    color:#DDE8F0 ;
-    padding: 1.5em 4.1em;
+    color:rgb(255, 255, 255);   
     text-transform: capitalize;
+    font-size: 120px;
 }
-.projects .platforms
+.servecis ul li
 {
-    padding-left: 100px;
-    padding-top: 9px;
-    color:#DDE8F0 ;
-    font-size: 2em;
-    font-weight: 500; 
-    text-transform: capitalize;
+    padding-top: 3%;
+    color:rgb(255, 255, 255);
 }
-.projects .platformsinfo
+.dotleft
 {
-    font-size: 150%;
-    color:#DDE8F0 ;
-    padding: 1.5em 4.1em;
-    text-transform: capitalize;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: -40px 30px 80px 5px #000;
+    border-style:hidden;
+    background-image: linear-gradient(to right top, #0a0134, #101961, #182c92, #1842c7, #0059ff);
+    background-color: white;
+    overflow: hidden;
+    position:absolute;top:190vh;right:85%;
+    opacity: 1;   
 }
-.projects .GlitshyWorldTitle
+.dotleft:hover
 {
-    padding: 100px 100px;
-    font-size: 2.5em;
-    color:#DDE8F0 ;
-    font-weight: 650;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.230);
+    transition-duration: 1.5s;
+    opacity: 0.3;   
 }
-.blog div
+.dotleftleft
 {
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.150);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: -10px 40px 80px 10px #000;
+    border-style:hidden;
+    background-image: linear-gradient(to right top, #0a0134, #101961, #182c92, #1842c7, #0059ff);
+    background-color: white;
+    overflow: hidden;
+    position:absolute;top:224vh;right:95%;
+    z-index: 1;
+    opacity: 1;   
 }
-.contact .contacting
+.dotleftleft:hover
 {
-
-    color:#97CBDC;
-    font-size: 3em;
-    font-weight: 750;
-    text-shadow: 5px 5px rgba(0, 0, 0, 0.230);
-    padding-left: 2em;
-    text-decoration: none;
+    transition-duration: 1.5s;
+    opacity: 0.3;   
 }
-.contact .links
+.dotright
 {
-    text-decoration:none;
-    font-style: normal;
-   padding-top: 30px;
-   padding-left: 100px;
-    font-size: 2em;
-    font-weight: 500;
-    color:#DDE8F0 ;
-    width: 10%;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: -10px 40px 80px 5px #000;
+    border-style:hidden;
+    background-image: linear-gradient(to right top, #0a0134, #101961, #182c92, #1842c7, #0059ff);
+    background-color: white;
+    overflow: hidden;
+    position:absolute;top:90vh;left:90%;
+    opacity: 1; 
 }
-.contact 
+.dotrightsmall
 {
-    padding-bottom: 75px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: -10px 40px 80px 10px #000;
+    border-style:hidden;
+    background-image: linear-gradient(to right top, #0a0134, #101961, #182c92, #1842c7, #0059ff);
+    background-color: white;
+    overflow: hidden;
+    position:absolute;top:124vh;left:90%;
+    z-index: 1;
+    opacity: 1;   
 }
-
-
-
+.dotrightsmall:hover,.dotright:hover
+{
+    transition-duration: 1.5s;
+    opacity: 0.3; 
+}
+.p a
+{
+   opacity: 0.6;
+}
