@@ -1,0 +1,229 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    font-weight: 700;
+}
+p{
+    color: rgb(255, 255, 255);
+    text-shadow: -0.2vw 0.5vw 0.5vw  #000;
+}
+body
+{
+    background-image: linear-gradient(to right top, #0a0134, #101961, #182c92, #1842c7, #0059ff);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+nav
+{
+    position: fixed;
+    z-index: 999;
+}
+nav ul
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    list-style:none;
+    opacity: 0.9;
+}
+nav ul li
+{
+    margin-left: 3vw;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    text-transform: capitalize;
+}
+nav ul li a:hover
+{
+    transition-duration: 0.5s;
+    opacity: 0.3;
+}
+nav ul li a 
+{
+    text-decoration: none;
+    font-style: normal;
+     font-size: 2.5vw;
+     font-weight: 700;
+     color: white;
+}
+nav ul .navigations
+{
+  display: flex;
+  justify-content:space-between;
+  margin-left: 36vw;
+}
+.logo
+{
+    font-weight:900;
+    font-size: 5vw;
+    color: white;
+    text-transform: uppercase;
+}
+.aboutsection
+{
+display: flex;
+justify-content: center;
+}
+.about
+{
+    width:60vw;height: 60vw;
+    background-color:#999;
+    border-radius: 20%;
+    border-color:#f9f6ff50;
+    border-style: solid;
+    border-width: 1vw;
+    margin-top: 15vw;
+    mix-blend-mode:soft-light;
+    box-shadow: -2vw 3vw 5vh 1vh #000;
+    opacity: 1;
+}
+.title
+{
+    text-transform: capitalize;
+    color: white;
+    font-size: 9vw;
+    margin-top: 3vw;
+    margin-left: 3vw;
+    font-weight: 800;
+}
+.slidecontent
+{
+margin-left: 5vw;
+margin-right: 4vw;
+margin-top: 3vw;
+font-size: 2.1vw;
+font-weight: 700;
+text-shadow: -0.1vw 0.2vw 0.2vw  #000;
+}
+.projectssection
+{
+    display: flex;
+    justify-content: center;
+}
+.projects
+{
+    width:60vw;height: 60vw;
+    background-color:#999;
+    border-radius: 20%;
+    border-color:#f9f6ff50;
+    border-style: solid;
+    border-width: 1vw;
+    margin-top: 10vw;
+    mix-blend-mode:soft-light;
+    box-shadow: -2vw 3vw 5vh 1vh #000;
+    opacity: 1;
+}
+.servicessection
+{
+    display: flex;
+    justify-content: center;
+}
+.services
+{
+    width:60vw;height: 60vw;
+    background-color:#999;
+    border-radius: 20%;
+    border-color:#f9f6ff50;
+    border-style: solid;
+    border-width: 1vw;
+    margin-top: 10vw;
+    mix-blend-mode:soft-light;
+    box-shadow: -2vw 3vw 5vh 1vh #000;
+    opacity: 1;
+}
+.contactingsection
+{
+    display: flex;
+    justify-content: center;
+}
+.contact
+{
+    width:30vw;height: 30vw;
+    background-color:#999;
+    border-radius: 20%;
+    border-color:#f9f6ff50;
+    border-style: solid;
+    border-width: 1vw;
+    margin-top: 10vw;
+    mix-blend-mode:soft-light;
+    box-shadow: -2vw 3vw 5vh 1vh #000;
+    opacity: 1;
+}
+.contact .title
+{
+    font-size: 4vw;
+}
+.contact .slidecontent
+{
+position: relative;right: 1.3vw;top: 1vw;
+}
+.instaimg
+{
+    mix-blend-mode: soft-light;
+   position: relative;top: 5vw;left: 5vw;
+}
+.instaicon
+{
+    width: 6vw;
+}
+.facbookimg
+{
+    mix-blend-mode: soft-light;
+    position: relative;top: 5vw;left: 11vw;
+}
+.facbookimg:hover , .instaimg:hover
+{
+     transition-duration: 0.5s;
+    opacity: 0.3;
+}
+.empty
+{
+    width: 100%;
+    height: 1vw;
+    padding-top: 15vw;
+    overflow: hidden;
+}
+.webimg
+{
+width: 13vw;
+}
+.servicedescription
+{
+font-size: 2.1vw;
+font-weight: 700;
+}
+.servicesfisrsentence
+{
+    font-size: 2.1vw;
+    text-shadow: -0.1vw 0.2vw 0.2vw  #000;
+    position: relative;left: 6vw;top: 5vw;
+}
+.serviceelemntscontainer
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;top: 14vw;
+    
+}
+.empty .leftdot
+{
+    position: relative;left:80vw;bottom: 10vw;
+    height: 30vw;width: 30vw;
+    border-radius: 50%;
+   box-shadow: -2vw 3vw 7vw #000;
+    background-image:linear-gradient(to right top, #0a0134, #101961, #182c92, #1842c7, #0059ff);
+}
+.rightdot
+{
+    position: absolute;right:80vw;top: -10vh;
+    z-index: -1;
+    height: 30vw;width: 30vw;
+    border-radius: 50%;
+   box-shadow: -2vw 3vw 7vw #000;
+    background-image:linear-gradient(to right top, #0a0134, #101961, #182c92, #1842c7, #0059ff);
+}
